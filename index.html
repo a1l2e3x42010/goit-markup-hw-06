@@ -450,7 +450,20 @@
             </li>
           </ul>
         </div>
-      </div>
+        <div class="subscribe-wrapper">
+          <p class="subscribe-title">Subscribe</p>
+          <form class="subscribe-form">
+            <input class="subscribe-input" type="email" name="subscribe_email" placeholder="E-mail" required="">
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>   
+    </div>
     </footer>
 
     <div class="backdrop" data-modal>
@@ -504,7 +517,7 @@
           </label>
 
           <label class="input-box comment-box">
-            <span class="input-label">Comment</span>
+            <span class="modal-form-input">Comment</span>
             <textarea
               class="form-input comment-input"
               name="user_comment"
@@ -512,7 +525,7 @@
             ></textarea>
           </label>
 
-          <label class="modal-form-title">
+          <label class="checkbox">
             <input
               type="checkbox"
               class="privacy-policy visually-hidden"
